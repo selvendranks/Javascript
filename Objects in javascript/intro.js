@@ -6,6 +6,7 @@ const person = {
     role: 'swordsmen',
     breathing: 'Atomic',
     interest: ['videoGames','coding','savingTheWorld']
+    
 }
 
 console.log(person)
