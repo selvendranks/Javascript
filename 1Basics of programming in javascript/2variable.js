@@ -1,6 +1,6 @@
 "use strict"; //cant use variable without declaring it 
 
-let string = "i am the ulti"
+var string = "i am the ulti"
 console.log(string)
 
 strinG = "bunny"
