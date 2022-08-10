@@ -1,0 +1,14 @@
+basic theory
+
+Ajax : asynchronous javascript 
+
+with AJAX , web application can send and retrieve
+data from server asynchronously  (in the background)
+without interfering with the display and behaviour of the 
+existing page
+
+We have 3 most common ways to create and send request to server
+1.) xmlHTTPRequest (old way of doing)
+2.) fetch API (new way of doing)
+3.) axios (this third party library)
+
