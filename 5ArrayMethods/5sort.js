@@ -31,7 +31,7 @@ const products = [
 ]
 
 //sort in ascending with clone
-const lowToHigh = [... products.sort((a,b)=>{
+const lowToHigh = [...products.sort((a,b)=>{
     return a.price-b.price
 })]
 

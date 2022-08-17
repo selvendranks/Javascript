@@ -12,7 +12,7 @@ const obj = {
 const obj2 = Object.create(obj) //created a reference
 obj2.roll = 229
 
-console.log(obj2.__proto__)
+console.log(obj2)
 console.log(obj2.name)
 
 //now lets improve the program in factoryFunction.js

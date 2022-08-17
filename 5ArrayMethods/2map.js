@@ -7,7 +7,7 @@ const numbers = [1, 24, 5, 3, 5,4,6]
 
 
 const newArray = numbers.map((number,index) => {
-    return [number * 2,index]
+    return number * 2
 })
 
 console.log(newArray)

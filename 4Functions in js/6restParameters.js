@@ -4,6 +4,7 @@ function myFunc(a,b,...c){
     console.log(a)
     console.log(b)
     console.log(c)
+    console.log(Array.isArray(c))
 }
 
 myFunc(1,2,2,5,2,6,77)

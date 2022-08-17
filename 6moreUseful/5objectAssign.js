@@ -29,4 +29,4 @@ const obj5 = {
 console.log(Object.assign(obj4,obj5)) //added obj5 key-values to obj4
 console.log(obj4)
 
-const obj6 = console.log({...obj4,...obj5}) //combined and assigned to obj6
+const obj6 = {...obj4,...obj5} //combined and assigned to obj6

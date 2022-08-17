@@ -34,6 +34,6 @@ const array = [{ name: 'monkey', age: 15 },
                {name: 'selva', age: 19}
                ]
 
-array.forEach(({name , age})=>{
-    console.log(`Age of ${name} is ${age}`)
+array.forEach(({name , age},index)=>{
+    console.log(`Age of ${name} is ${age} : ${index}`)
 })

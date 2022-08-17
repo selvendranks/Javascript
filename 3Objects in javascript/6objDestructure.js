@@ -8,5 +8,5 @@ const person = {
     interest: ['videoGames','coding','savingTheWorld']
 }
 
-const {age:myAge , name, ...restProperties}  = person
-console.log(myAge,name,restProperties)
+const {age:myAge , breathing, ...restProperties}  = person
+console.log(myAge,breathing,restProperties)

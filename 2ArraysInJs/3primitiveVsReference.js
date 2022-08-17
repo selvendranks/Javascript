@@ -1,7 +1,7 @@
 //primitive datatypes (numbers , strings)
 
 let num1 = 5;
-let num2 = 3;
+let num2 = num1;
 console.log('value of num1',num1)
 console.log('value of num2',num2)
 num1++

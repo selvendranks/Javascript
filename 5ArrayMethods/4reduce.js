@@ -37,7 +37,7 @@ const array = [ 1,2,3,4]
 accumulator = array[0] (ie) 1
 currentValue = array[1] (ie) 2
 
-////id initial value of accumulator is provided then
+////if initial value of accumulator is provided then
 
 accumulator = (initialised value)
 currentValue = array[0] (ie) 1

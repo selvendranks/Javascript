@@ -17,6 +17,7 @@ console.log(deleted)
 
 //insert and delete
 const clone3 = [...array]
+console.log(`clone 3  ${clone3}`)
 deleted = clone3.splice(1,3,-1,-2) //inserted two values in between
 console.log(clone3)
 console.log('deleted',deleted)
