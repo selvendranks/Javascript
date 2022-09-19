@@ -1,0 +1,9 @@
+Javascript Decorator Functions
+
+Decorator wrap a function in another function
+
+These wrappers decorate the original function 
+with new capabilities
+
+Benefits: D.R.Y(dont repeat yourself ) and clean code through composition 
+
