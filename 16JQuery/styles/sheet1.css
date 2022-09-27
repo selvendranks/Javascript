@@ -1,0 +1,23 @@
+#div1{
+    margin: auto;
+    border: 3px dotted black;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+
+#div2{
+    margin: auto;
+    border: 3px dotted black;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+#div3{
+    margin: auto;
+    border: 3px dotted black;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
