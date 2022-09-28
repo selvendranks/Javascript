@@ -1,0 +1,11 @@
+We want to trigger a function, but only once per use case.
+Let's say that we want to show suggestions for a search query, but only after a visitor has finished typing it.
+Or we want to save changes on a form, but only when the user is not actively working on those changes, as every "save" costs us a database trip.
+
+
+Practical realtime example:
+
+
+The term debounce comes from electronics. When you’re pressing a button, let’s say on your TV remote, the signal travels to the microchip of the remote so quickly that before you manage to release the button, 
+it bounces, and the microchip registers your “click” multiple times.
+To mitigate this, once a signal from the button is received, the microchip stops processing signals from the button for a few microseconds while it’s physically impossible for you to press it again.

@@ -18,10 +18,16 @@ console.log(isEven)
 ////object in array
 
 const myCart = [
-    { id: 1, name: 'hamam', price: 30 },
-    { id: 2, name: 'cinthol', price: 25 },
+    { id: 1, name: 'hamam', price: 299 },
+    { id: 2, name: 'cinthol', price: 45 },
     { id: 3, name: 'medimix', price: 35 }]
 
-const isCheap = myCart.every((product)=> product.price < 30)
+
+    function check(product){
+        return product.price > 30
+    }
+const isCheap = myCart.every(check)
+
+
 console.log(isCheap)
 

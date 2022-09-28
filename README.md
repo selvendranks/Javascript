@@ -188,3 +188,12 @@ Install vscode and run first program
 * Split code into multiple files using ES6 modules.
 * Congratulations 
 * Now you know javascript in Great Details
+
+### JQuery
+
+
+
+### Advanced Javascript
+
+* Decorator Functions
+

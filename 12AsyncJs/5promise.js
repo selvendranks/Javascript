@@ -28,7 +28,7 @@ const friedRicePromise = new Promise((resolve, reject) => {
 friedRicePromise.then((e) => {
     console.log(e)
 }).catch((error) => {
-    console.log(error)
+    console.log(`so sad ${error}`)
 })
 
 
