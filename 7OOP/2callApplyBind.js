@@ -34,7 +34,7 @@ person1.about.apply(person2,['chess','swimming'])
 
 about.apply(person2,['chess','swimming'])
 
-//apply method is used to make a func so that it can be used in the feature
+//bind method is used to make a func so that it can be used in the feature
 
 const person2Details = person1.about.bind(person2,['chess','swimming'])
 person2Details()
