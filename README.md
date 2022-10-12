@@ -116,6 +116,7 @@ Install vscode and run first program
 * Method overriding
 * Getters and setters
 * Static methods and properties
+* Understanding this
 
 ### How JavaScript Works
 * Global Execution context
