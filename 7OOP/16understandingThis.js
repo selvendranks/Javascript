@@ -17,7 +17,7 @@ class NameGenerator {
         // btn.addEventListener('click',this.addName) //it wont work because this noe refers to 'btn' not the class Object
 
 
-        // btn.addEventListener('click', () => {  //using anonymous function this refers to surrounding ie - class
+        // btn.addEventListener('click', () => {  //using arrow function this refers to surrounding ie - class
         //     this.addName();
         // });
 
