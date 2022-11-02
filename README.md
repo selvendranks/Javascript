@@ -192,7 +192,9 @@ Install vscode and run first program
 
 ### JQuery
 
-
+* Selectors
+* Events
+* Effects
 
 ### Advanced Javascript
 
