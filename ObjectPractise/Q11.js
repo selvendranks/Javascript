@@ -4,10 +4,21 @@
 // ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]
 
 
-class Properties{
-    constructor(object){
-        this.Properties = object.this.getOwnPropertyNames()
-    }
+// class Properties{
+//     constructor(object){
+//         this.Properties = object.this.getOwnPropertyNames()
+//     }
 
-    getFunctions
+//     getFunctions
+// }
+
+function Properties(object){
+    let Properties = Object.getOwnPropertyNames(object)
+
+    let methods = Properties.filter((obj)=>(typeof(object[obj]) == 'function'))
+
+    return methods
+
 }
+
+console.log(Properties(Array))
